@@ -1,0 +1,388 @@
+body{
+    position: absolute;
+    font-family: "Noto Serif",serif;
+    overflow: scroll;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    width: 70%;
+    display: flex;
+    
+}
+
+
+#qw{
+    background: url('/images/quark.jpg')no-repeat center center/cover;
+    height: 750px;
+}
+ul.main {
+    display: flex;
+    margin: 10px 34px;
+    align-content: center;
+    justify-content: flex-end;
+    width: 75%;
+    margin-left: 10%;
+    margin-top: -6%;
+   
+}
+/* nav{
+    color: aliceblue;
+    content: "";
+    background: black;
+    height: 80px;
+    position: absolute; 
+    width: 100%;
+    opacity: 0.5;
+     z-index: -1;}
+*/
+ul.main li a{
+    
+    display:inline-block ;
+    /* padding: 10px 34px; */
+}
+.main li{
+    background: black;
+    border-radius: 20px;
+    width: 170px;
+    /* border:1px solid rgb(0, 0, 0); */
+    margin-top:-20px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-family: big John;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+.navi ul li:hover{
+    text-decoration:underline;
+}
+.navi ul ul li{
+    background: white;
+    width: 120px;
+     /* border-left: 1px dotted black;
+     border-right: 1px dotted black; */
+     border-bottom: 1px dotted black;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    /* font-family: big John; */
+    
+}
+.navi ul ul :hover{
+    /* background: rgb(8, 184, 117); */
+    color: white;
+    background: black;
+    
+    
+}
+.navi ul ul li a{
+    color: black;
+}
+
+
+.navi ul ul {
+    display: none;
+}
+.main ul li a{
+ text-decoration: none;
+ z-index: 2;
+}
+.navi ul li:hover>ul{
+    display: block;
+    z-index: 2;
+   
+}
+#real{
+    display: flex;
+}
+#home{
+    /* border: 2px solid red; */
+    width: 35%;
+    padding: 10px 17px;
+    box-sizing: border-box;
+    margin-left: 2%;
+    margin-top: 10%;
+    display: inline-block;
+    font-size: 1.3rem;
+    height: 400px;
+    color: white;
+}
+ .btn{
+    padding: 10px 20px;
+    border-radius: 120px;
+    background: transparent;
+    color: white;
+}
+.btn:hover{
+    cursor: pointer;
+    background: burlywood;
+}
+
+.nav2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    margin-left: 45%;
+    
+}
+.nav2 img{
+    padding: 17px 34px;
+    z-index: 1;
+    width: 140px;
+    height: auto;
+}
+.two span h2{
+
+    font-size:50px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+
+}
+.two{
+    display: grid;
+    grid-template-areas: 'imgg pr';
+    margin-top: 5%;
+}
+.two  img{
+    width:100% ;
+    height:360px;
+    grid-area: imgg;
+    
+}
+#pr{
+
+    /* border: 2px solid red; */
+    padding: 20px 10px;
+    grid-area: pr; 
+    box-sizing: content-box;
+   
+}
+.two span p{
+    margin-left: auto;
+    padding: auto;
+    max-height: 300px;
+    width: auto;
+    font-size: auto;
+} 
+.bar1{
+    margin-top: 1%;
+    margin-left: 55%;
+    width:32%;
+    padding: 5px 10px ;
+    /* border:2px solid red; */
+    max-height: 700px;
+    background: url('/images/toth.jpg');
+    display: inline-block;
+    font-size: 1.5rem;
+   color: white;
+    
+}
+.bar::before{
+    content: "";
+    background:url('/images/thanhhoa.jpg');
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    margin-top: 6%;
+    margin-left: 0px;
+    z-index: -1;
+}
+.bar1 h3{
+    margin-top: 15%;
+   
+}
+.bar1   div{
+    padding: 1px auto;
+    display: grid;
+    grid-template-areas: 'a1 a2';
+}
+
+#a1{
+    grid-area: a1; 
+    margin-bottom: 15%;
+}
+#a2{
+    grid-area: a2; 
+    margin-bottom: 15%;
+}
+.bar2{
+    /* margin-left: 5%; */
+    margin-top: 5%;
+}
+.bar2 p{
+margin: 0px 0px;
+padding: 0px 0px;
+font-size: 1.5rem;
+}
+.var1{
+    margin-top: 1%;
+    margin-left: 55%;
+    width:32%;
+    padding: 5px 10px ;
+    /* border:2px solid red; */
+    max-height: 700px;
+    background: url('s3://awdc.assam.gov.in/src/images/gotta.jpg');
+    display: inline-block;
+    font-size: 1.5rem;
+   color: white;
+    
+}
+.var::before{
+    content: "";
+    background:url('s3://awdc.assam.gov.in/src/images/weet.jpg');
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    margin-top: 6%;
+    margin-left: 0px;
+    z-index: -1;
+}
+.services{
+    margin: 5px 20px;
+    /* margin-left:5%;  */
+    display: flex;
+    margin-bottom: 20px;
+    
+    
+}
+.services .box{
+    /* border: 2px dashed red; */
+    padding: 10px 20px;
+    margin: 2px 10px;
+    border-radius: 25px;
+    /* background-color:#ff00aa12; */
+    background: white;
+    box-shadow:  0 0 10px rgb(131, 191, 243);
+    position: relative;
+    
+    
+    
+}
+.services .box img{
+    height: 200px;
+    width: 243px;
+    margin: auto;
+    display: block;
+   
+}
+.bar3{
+    margin-top: 10%;
+    display: grid;
+    grid-template-areas: 'imgg prr'
+
+}
+.bar3  img{
+    margin-left: 130px;
+    width:520px;
+    height:600px;
+    grid-area: imgg;
+    
+}
+#prr{
+    /* width: auto; */
+    width: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-height: 600px;
+    /* border: 2px solid red; */
+    padding: 20px 10px;
+    grid-area: prr; 
+    box-sizing: content-box;
+    
+}
+#prr .pp h2{
+    line-height: 20px;
+    padding: 2px 0px;
+    width: 200px;
+    padding: 10px 20px;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    border:1px solid rgb(131, 191, 243);
+    
+    
+}
+#prr .pp p{
+    display: none;
+    
+    padding: 2px 10px;
+    width: 300px;
+    background: white;
+    /* border: 2px solid red;
+    border-radius: 5px; */
+    box-shadow: 0 0 10px rgb(131, 191, 243);
+    height: auto;
+    
+    
+}
+#prr .pp h2:hover+p{
+display: block;
+}
+.carry{
+    margin-top: 10%;
+}
+.carousel {
+    background: white;
+}
+  
+.carousel-cell {
+    width: 28%;
+    height: 400px;
+    margin-left: 2%;
+    background: aliceblue;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+.carousel-cell img{
+    width: 100%;
+    height: 400px;
+    margin: 0px 25px;
+        
+}
+.carousel-cell.is-selected {
+    background:aliceblue;
+  }
+  
+  /* cell number */
+/* .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+} */
+footer{
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.918);
+    color: aliceblue;
+    padding: 9px 20px;
+    text-align: center;
+} 
+
+
+@media only screen and (max-width:1000px){
+    ul.main{
+        margin-top: -6.5%;
+    }
+    .nav2{
+        /* display: flex;
+        flex-direction: column; */
+        margin-top: 10%;
+        margin-left: 30%;
+        
+    }
+    #home{
+        margin-top: 16%;
+    }
+}
+@media only screen and (min-width:1321px){
+.bar3  img{
+    margin-left: 140px;}}
+
+
